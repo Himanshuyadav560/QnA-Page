@@ -1,0 +1,200 @@
+/* .Navbar-expand{
+    background-image: url("nav1.jpg"); 
+    background-size: 100%;
+    height: 300px;
+    background-size:cover;
+    width: 100%;
+} */
+
+#Nav-2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 240px;
+    background-image: url("nav1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+#left{
+    display: flex;
+    justify-content: center;
+    color:white;
+    margin-left: 10px;
+}
+#left p{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 50px;    
+}
+#right{
+    display: flex;
+    justify-content:center;
+}
+#sigin{
+    margin-left: 50px;
+    padding:0px 15px 0px 15px;
+    
+}
+#nav2-btn{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 5px 40px 5px 40px;
+    height: 40px;
+}
+
+#col1{
+    background-color: aqua;
+    height: 400px;
+}
+#col2{
+    background-color: aquamarine;
+    height: 400px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+#col3{
+    background-color:brown;
+    height: 400px;
+}
+#a {
+    text-decoration: none;
+    color: black;
+}
+#links{
+    display: flex;
+    justify-content: center;
+}
+
+div span{
+    font-size: x-large;
+    margin-left: 10px;
+}
+
+#profilepic{
+    width: 50px;
+    border-radius: 50%;
+}
+#nameprofile{
+    text-decoration: none;
+    color: brown;
+}
+#quest{
+    text-decoration: none;
+    color: black;
+}
+#quest1{
+    margin-left: 110px;
+    top: 0;
+    bottom: 100%;
+}
+.likes{
+    display: flex;
+    justify-content: center;
+    
+}
+#count{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#btn-react{
+   border-color: aquamarine;
+    background-color: aquamarine;
+}
+#btn-react:hover{
+    background-color: rgb(191, 64, 64);
+}
+#answer{
+    margin-left: 110px;
+}
+#btn-answer{
+    margin-left: 600px;
+}
+#col1{
+    display: grid;
+    justify-content: center;
+}
+#col1 span a{
+    text-decoration: none;
+    color:black;
+    
+}
+
+#col3{
+    text-align: center;
+}
+#col3 span{
+    border-style: double;
+    height: 50px;
+    width: 100%;
+    
+}
+#btn-question{
+    height: 40px;
+    
+}
+#grid1-1,#grid1-2,#grid1-3,#grid1-4{
+    height: 60px;
+    padding: 2px;
+    border-color: black;
+    border-style:solid;
+}
+#grid1-1,#grid1-4{
+    color: blue;
+    border-left-color: blue;
+    border-left-width: 10px;
+}
+#grid1-2,#grid1-3{
+    color:yellow;
+    border-left-color: yellow;
+    border-left-width: 10px;
+}
+#grid1-main{
+    margin-top: 20px;
+}
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #31353a;
+    color: azure;
+}
+#foot-li{
+    text-decoration: none;
+    color: azure;
+}
+#foot-li1{
+    text-decoration: none;
+    color: wheat;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.fa{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+  
+.fa:hover {
+      opacity: 0.7;
+}
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #3B5998;
+    color: white;
+}
+.fa-linkedin {
+    background: #3B5998;
+    color: white;
+}
+.fa-google {
+    background: #3B5998;
+    color: white;
+}
